@@ -45,9 +45,17 @@ const Login = () => {
   return (
     <main className="w-full h-screen flex flex-col items-center justify-center px-4 pb-10">
       <div className="max-w-sm w-full space-y-5">
-        <div className="text-center">
+        <div className="text-center flex flex-col items-center">
+          <div className="flex items-center gap-2">
+            <img className="size-7" src="/favicon.svg" />
+            <h1 className="font-bold text-3xl text-blue-600">
+              Mar<span className="text-black">Ket</span>
+            </h1>
+          </div>
           <div className="my-5">
-            <h1 className="text-2xl font-bold sm:text-3xl">Login</h1>
+            <h1 className="text-2xl font-bold">
+              Login to your account
+            </h1>
           </div>
         </div>
         <form onSubmit={handleSubmit(handleSignIn)} className="space-y-5">

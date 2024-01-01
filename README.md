@@ -1,3 +1,24 @@
+<div align="center">
+
+<img src="./public/favicon.svg" width="100px" alt="icon"/>
+
+<br/>
+
+# MarKet
+
+[Live Website](https://market-tcm.vercel.app/)
+
+</div>
+
+## Preview
+
+![](./public//final_login_ss.png)
+![](./public//home_market_top.png)
+
+
+
+
+
 ## Create Project
 
 ```bash
