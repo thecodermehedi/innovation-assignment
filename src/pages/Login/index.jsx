@@ -67,7 +67,7 @@ const Login = () => {
               name="username"
               {...register("username", {required: true})}
               className="w-full mt-2 px-3 py-2 text-black bg-black bg-opacity-5 outline-none border focus:bg-transparent shadow-sm"
-              defaultValue={"kminchelle"}
+              defaultValue={"emilys"}
               required
             />
           </div>
@@ -90,7 +90,7 @@ const Login = () => {
               name="password"
               {...register("password", {required: true})}
               className="w-full mt-2 px-3 py-2 text-black bg-black bg-opacity-5 outline-none border focus:bg-transparent shadow-sm"
-              defaultValue={"0lelplR"}
+              defaultValue={"emilyspass"}
               required
             />
           </div>
